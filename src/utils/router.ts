@@ -3,7 +3,7 @@ import HomeView from '../views/Home/index.vue';
 import AgendamentoView from '../views/Agendamento/index.vue';
 
 const router = createRouter({
-  history: createWebHistory('https://vilaecoserena.netlify.app/'),
+  history: createMemoryHistory(),
   routes: [
     {
       path: '/',
