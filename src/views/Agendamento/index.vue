@@ -3,7 +3,7 @@ import { useRouter } from 'vue-router';
 import { ref } from 'vue';
 const router = useRouter();
 
-const weekdays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+const weekdays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
 const today = new Date().getDay();
 
 const selectedDay = ref(0);
